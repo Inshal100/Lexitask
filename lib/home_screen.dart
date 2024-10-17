@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text('Home'),
       ),
       body: Center(
-        child: Text('Welcome to home page'),
+        child: Text('Welcome to home page hehe'),
       ),
     );
   }
