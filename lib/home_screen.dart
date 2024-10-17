@@ -11,12 +11,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Home'),
-      ),
-      body: Center(
-        child: Text('Welcome to home page'),
-      ),
-    );
+        appBar: AppBar(
+          title: Text('Home'),
+        ),
+        body: Stack(
+          fit: StackFit.expand,
+          children: [
+            Column(
+              children: [],
+            )
+          ],
+        ));
   }
 }
